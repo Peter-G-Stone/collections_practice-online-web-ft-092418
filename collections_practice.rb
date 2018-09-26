@@ -42,7 +42,7 @@ def add_s(arr)
   arr.each_with_index.collect do |n, i| 
     if i != 1 
       n + "s"
-    else
+    else n 
     end 
   
   end 
