@@ -11,6 +11,9 @@ def sort_array_char_count(arr)
   arr.sort_by(&:length)
 end 
 
-def swap_elements
-  
+def swap_elements(arr)
+  i = arr[2]
+  arr[2] = arr[1]
+  arr[1] = i 
+  arr 
 end 
