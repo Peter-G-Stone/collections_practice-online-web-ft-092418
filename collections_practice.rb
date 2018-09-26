@@ -35,5 +35,5 @@ def find_a(arr)
 end 
 
 def add_s(arr)
-  arr.each_with_index.collect {|n, 1|   
+  arr.each_with_index.collect {|n, i| n + "s" if i != 1}
 end 
