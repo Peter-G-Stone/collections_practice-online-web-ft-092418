@@ -33,3 +33,7 @@ end
 def find_a(arr)
   newArr = arr.select {|i| i[0].upcase == "A"}
 end 
+
+def add_s(arr)
+    
+end 
