@@ -34,6 +34,9 @@ def find_a(arr)
   newArr = arr.select {|i| i[0].upcase == "A"}
 end 
 
+def sum_array(arr)
+  
+
 def add_s(arr)
   arr.each_with_index.collect {|n, i| n + "s" if i != 1}
 end 
