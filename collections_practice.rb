@@ -39,5 +39,11 @@ def sum_array(arr)
 end 
 
 def add_s(arr)
-  arr.each_with_index.collect {|n, i| n + "s" if i != 1}
+  arr.each_with_index.collect do |n, i| 
+    if i != 1 
+      n + "s"
+    else
+    end 
+  
+  end 
 end 
