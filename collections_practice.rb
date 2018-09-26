@@ -29,3 +29,7 @@ def kesha_maker(arr)
     newArr.push(i)
   end 
 end 
+
+def find_a(arr)
+  newArr = arr.select {|i| i[0].upcase == "A"}
+end 
